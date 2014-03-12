@@ -1,15 +1,18 @@
-﻿body
-{
-	padding: 25%;
-	background-color: #000;
+﻿body {
+	padding: 15%;
 	text-align: center;
-	font-family: Arial, Sans-Serif;
-	font-size: xx-large;
-	font-weight: bolder;
-	text-transform: uppercase;
+	/*background-color: #000;*/
+	/*font-family: Arial, Sans-Serif;*/
+	
+	/*font-weight: bolder;*/
 }
 
-a
-{
-	color: #0f0;
+a, a:visited, a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	/*font-size: xx-large;*/
+	font-size: 12em;
+	text-transform: uppercase;
 }
