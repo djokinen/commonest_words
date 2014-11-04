@@ -1,14 +1,14 @@
 ﻿body {
-	cursor: pointer;
+	cursor:pointer;
 	padding: 21% 0;
 	text-align: center;
 }
 
 h1 {
 	font-size: 12em;
+	text-transform: uppercase;
 }
 
 a, a:visited, a:hover {
 	text-decoration: none;
-	text-transform: uppercase;
 }
