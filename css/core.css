@@ -1,0 +1,44 @@
+﻿body {
+	/*padding: 0 1em;*/
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	width: 100%;
+	margin: 0;
+	font-size: 12em;
+	cursor: pointer;
+}
+
+a {
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.floating-action {
+	z-index: 30;
+	position: absolute;
+	bottom: 4em;
+	right: 4.5em;
+	background-position: center center;
+	background-repeat: repeat;
+	height: 148px;
+	width: 148px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	background-color: rgba(3, 155, 225, 0.75);
+}
+
+	.floating-action:active {
+		box-shadow: none;
+		background-color: rgba(3, 155, 225, 0.85);
+	}
+
+	.floating-action:hover {
+		background-color: rgba(3, 155, 225, 0.95);
+	}
+
+	.floating-action.next {
+		background-image: url("../img/image/ic_navigate_next_black_48dp.png");
+	}

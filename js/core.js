@@ -13,7 +13,7 @@ var init = function () {
 		$("#word").html(words[Math.floor((Math.random() * 100) + 1)])
 	});
 
-	$("#play").click(function (e) {
+	$("h1").click(function (e) {
 		var msg = new SpeechSynthesisUtterance($("#word").html());
 		window.speechSynthesis.speak(msg);
 	});
