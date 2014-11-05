@@ -1,14 +1,28 @@
 ﻿body {
-	cursor:pointer;
-	padding: 21% 0;
+	/*cursor:pointer;*/
+	/*padding: 21% 0;*/
+}
+
+body {
+	padding: 1em;
 	text-align: center;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*
+	padding-bottom: 0px;
+	color: #5a5a5a;
+	background: #fafafa;
+	background-image: none;
+	*/
 }
 
 h1 {
+	margin: 0;
 	font-size: 12em;
-	text-transform: uppercase;
 }
 
-a, a:visited, a:hover {
+a {
+	padding: 1em;
+	font-weight:bolder;
 	text-decoration: none;
 }

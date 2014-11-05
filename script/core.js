@@ -9,7 +9,12 @@ var init = function () {
 
 	$("#word").html(words[Math.floor((Math.random() * 100) + 1)]);
 
-	$("body").click(function (e) {
+	$("#next").click(function (e) {
 		$("#word").html(words[Math.floor((Math.random() * 100) + 1)])
+	});
+
+	$("#play").click(function (e) {
+		var msg = new SpeechSynthesisUtterance($("#word").html());
+		window.speechSynthesis.speak(msg);
 	});
 };
