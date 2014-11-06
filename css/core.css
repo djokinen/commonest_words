@@ -1,7 +1,6 @@
 ﻿body {
 	color: #fff;
-	background-color: rgba(80%, 20%, 20%, .80);  /*#c33;*/
-
+	background-color: rgba(80%, 20%, 20%, .80); /*#c33;*/
 	text-transform: uppercase;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -13,14 +12,14 @@ h1 {
 	cursor: pointer;
 }
 
-a {
+/*a {
 	font-weight: bolder;
 	text-decoration: none;
-}
+}*/
 
 .floating-action {
 	z-index: 30;
-	position: absolute;
+	position: fixed;
 	bottom: 4em;
 	right: 4.5em;
 	background-position: center center;
@@ -29,12 +28,10 @@ a {
 	width: 148px;
 	border-radius: 50%;
 	background-color: rgba(3, 155, 225, 0.75);
-
 	/*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);*/
-	
--webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 	.floating-action:active {
