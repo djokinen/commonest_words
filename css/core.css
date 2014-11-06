@@ -1,5 +1,7 @@
 ﻿body {
-	/*padding: 0 1em;*/
+	color: #fff;
+	background-color: rgba(80%, 20%, 20%, .80);  /*#c33;*/
+
 	text-transform: uppercase;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -26,8 +28,13 @@ a {
 	height: 148px;
 	width: 148px;
 	border-radius: 50%;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	background-color: rgba(3, 155, 225, 0.75);
+
+	/*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);*/
+	
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 	.floating-action:active {
