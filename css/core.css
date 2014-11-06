@@ -12,16 +12,11 @@ h1 {
 	cursor: pointer;
 }
 
-/*a {
-	font-weight: bolder;
-	text-decoration: none;
-}*/
-
 .floating-action {
 	z-index: 30;
 	position: fixed;
-	bottom: 4em;
-	right: 4.5em;
+	bottom: 3%;
+	right: 2%;
 	background-position: center center;
 	background-repeat: repeat;
 	height: 148px;
