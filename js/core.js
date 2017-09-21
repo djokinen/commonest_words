@@ -2,7 +2,7 @@
 var isSpeechSupported;
 
 var init = function () {
-	isSpeechSupported = responsiveVoice.voiceSupport();
+	isSpeechSupported = true;// responsiveVoice.voiceSupport();
 
 	initWords();
 
@@ -24,11 +24,9 @@ var init = function () {
 		}
 	});
 
-	$("#word,#listen").click(function (e) {
-		if (isSpeechSupported) {
-			var msg = $("#word").html();
-			responsiveVoice.speak(msg);
-		}
+	$("#word,#listen").on("click", function () {
+		var msg = $("#word").html();
+		responsiveVoice.speak(msg);
 	});
 };
 
