@@ -8,8 +8,9 @@
 h1 {
 	width: 100%;
 	margin: 0;
-	font-size: 12em;
+	/*font-size: 12em;*/
 	cursor: pointer;
+	text-align: center;
 }
 
 .floating-action {
