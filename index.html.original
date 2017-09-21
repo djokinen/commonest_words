@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title>Cognitive Training | Words</title>
+	<!--<script type="text/javascript" src='//code.responsivevoice.org/responsivevoice.js'></script>-->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/responsivevoice.js"></script>
+	<script type="text/javascript" src="js/core.js"></script>
+	<script type="text/javascript"> $(function () { init(); }); </script>
+</head>
+<body>
+	<h1 title="Click to listen" id="word">
+		commonest
+	</h1>
+
+	<input type='image' src="img/ic_hearing_white_48dp_2x.png" value='Listen' />
+
+	<a class="floating-action next" id="next" href="javascript://void();" title="next"></a>
+
+</body>
+</html>
+<link href="css/core.css" rel="stylesheet" type="text/css" />
